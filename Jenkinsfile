@@ -4,7 +4,6 @@ pipeline {
 		stage('Git-Checkout') {
 			steps {
 					echo "Checking out from GIT Repo";
-					git branch: 'main', url: 'https://github.com/sarthak44-code/Git-Jenkins-Groovy-Pipeline.git'
 		}
 	}
 		
